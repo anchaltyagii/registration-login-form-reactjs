@@ -1,0 +1,20 @@
+.popup-box {
+    height: 200px;
+    width: 250px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .close_button{
+        height: 20px;
+        width: 20px;
+        position: relative;
+        left: 160px;
+        top: -85px;
+        cursor: pointer;
+    }
+    .hide_popup{
+        display: none;
+    }
+}

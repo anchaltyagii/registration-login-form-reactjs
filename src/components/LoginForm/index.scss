@@ -1,0 +1,16 @@
+h4 {
+    text-align: center;
+}
+
+.popup-form-container{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #4a4a4a7a;
+    z-index: 9999 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

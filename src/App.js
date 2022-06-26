@@ -6,8 +6,10 @@ import Login from './components/LoginForm/Index';
 function App() {
   return (
     <>
-    <Login/>
-     <Form />
+    <Switch>
+      <Route exact path = '/'>{<Login />}</Route>
+      <Route path = '/register'>{<Form />}</Route>
+    </Switch>
     </>
   );
 }
